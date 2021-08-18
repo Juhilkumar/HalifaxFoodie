@@ -1,0 +1,25 @@
+{
+    "resourceName": "lex8740272e",
+    "botName": "HalifaxFoodie",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "username",
+                    "type": "AMAZON.AlphaNumeric",
+                    "prompt": "How can I help you?",
+                    "required": false,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "Hello"
+            ],
+            "intentName": "greetings",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": false,
+    "sessionTimeout": "10",
+    "coppa": true
+}
